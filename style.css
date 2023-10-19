@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    height: 110px;
+}
+.nav-item{
+    text-decoration-style: b
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+#navbarNavDropdown{
+    margin-left: 290px;
+}
+.nav-item{
+    margin-right: 8px;
+}
+.in:focus{
+    outline: none;
+}
+.img{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://www.luminartechnolab.com/static/media/pexels-kindel-media-7054785.47b27e7d.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:400px){
+    *{
+        padding: 0;
+        margin: 0;
+    } 
+    #navbarNavDropdown{
+        margin-left: 10px;
+    }
+}
